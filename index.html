@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyvex Store Bot | Status</title>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background: #1e293b;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            border: 1px solid #334155;
+            max-width: 500px;
+            width: 90%;
+        }
+        .status-dot {
+            height: 15px;
+            width: 15px;
+            background-color: #10b981;
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 10px #10b981;
+            margin-right: 10px;
+            animation: pulse 2s infinite;
+        }
+        h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+        p {
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #2563eb;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.2); opacity: 0.7; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cyvex Store</h1>
+        <div style="display: flex; align-items: center; justify-content: center; margin: 1rem 0;">
+            <span class="status-dot"></span>
+            <span style="color: #10b981; font-weight: bold;">System Operational</span>
+        </div>
+        <p>The AI-driven enterprise bot is currently running and processing automated deliveries.</p>
+        <a href="https://t.me/YOUR_BOT_USERNAME" class="btn" target="_blank">Open Telegram Bot</a>
+    </div>
+</body>
+</html>
