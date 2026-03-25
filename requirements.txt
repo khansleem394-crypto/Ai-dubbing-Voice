@@ -4,3 +4,6 @@ requests
 flask
 aiohttp
 pytz
+psycopg2-binary
+sqlalchemy
+gunicorn
